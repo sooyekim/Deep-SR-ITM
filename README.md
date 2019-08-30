@@ -11,7 +11,7 @@ If you find this repository useful, please consider citing our paper.
 ### Requirements
 Our code is implemented using MatConvNet. (MATLAB required)
 
-Appropriate installations of MatConvNet is *necessary* via the official website: <http://www.vlfeat.org/matconvnet/>
+Appropriate installations of MatConvNet is *necessary* via the official website: <http://www.vlfeat.org/matconvnet/>  
 Detailed instructions on installing MatConvNet can be found in: <http://www.vlfeat.org/matconvnet/install/>
 
 The code was tested under the following setting:  
