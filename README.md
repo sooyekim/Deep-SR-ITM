@@ -8,6 +8,8 @@ If you find this repository useful, please consider citing our paper.
 **Reference**: Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
 *IEEE International Conference on Computer Vision*, 2019.
 
+Supplementary Material: <https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe>
+
 ### Requirements
 Our code is implemented using MatConvNet. (MATLAB required)
 
