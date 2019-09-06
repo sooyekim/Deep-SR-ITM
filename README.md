@@ -8,13 +8,13 @@ If you find this repository useful, please consider citing our paper.
 **Reference**: Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
 *IEEE International Conference on Computer Vision*, 2019.
 
-Supplementary Material: <https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe>
+Supplementary Material is provided [here](https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe).
 
 ### Requirements
 Our code is implemented using MatConvNet. (MATLAB required)
 
-Appropriate installations of MatConvNet is *necessary* via the official website: <http://www.vlfeat.org/matconvnet/>  
-Detailed instructions on installing MatConvNet can be found in: <http://www.vlfeat.org/matconvnet/install/>
+Appropriate installations of MatConvNet is *necessary* via the [official website](http://www.vlfeat.org/matconvnet/).  
+Detailed instructions on installing MatConvNet can be found [here](http://www.vlfeat.org/matconvnet/install/).
 
 The code was tested under the following setting:  
 * MATLAB 2017a  
@@ -26,14 +26,13 @@ The code was tested under the following setting:
 ## Test code
 ### Quick Start
 1. Download the source code in a directory of your choice \<source_path\>.
-2. Download the test dataset from <https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH> and place the 'test' folder in **\<source_path\>/data**
+2. Download the test dataset from [this link](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH) and place the 'test' folder in **\<source_path\>/data**
 3. Place the files in **\<source_path\>/+dagnn/** to **\<MatConvNet\>/matlab/+dagnn**
 4. Run **test_mat.m** or **test_yuv.m**
 
 ### Description
 We provide the pre-trained weights for the x2 and x4 models in **\<source_path\>/net**.  
-The test dataset can be downloaded from:
-<https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH>
+The test dataset can be downloaded from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH).
 
 We provide three test code files:  
 * test_mat.m *for* testing the provided .mat test set. (**fast**)  
@@ -58,13 +57,12 @@ after the PQ-OETF, in the BT.2020 color container and this YUV file can be viewe
 ## Training code
 ### Quick Start
 1. Download the source code in a directory of your choice \<source_path\>.
-2. Download the train dataset from <https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH> and place the 'train' folder in **\<source_path\>/data**
+2. Download the train dataset from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH) and place the 'train' folder in **\<source_path\>/data**
 3. Place the files in **\<source_path\>/+dagnn/** to **\<MatConvNet\>/matlab/+dagnn**
 4. Run **train_base_net.m** (pre-training) then run **train_full_net.m** (full training with modulation components)
 
 ### Description
-The train dataset can be downloaded from:
-<https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH>
+The train dataset can be downloaded from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH).
 We create a training set prior to training (instead of cropping the training patches every mini-batch), as it is inefficient to read the 4K frames at every iteration.  
 
 We provided two training code files for pre-training and fully training the whole network.  
