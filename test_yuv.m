@@ -1,5 +1,6 @@
 clear all;
 %%%====== Settings ======%%%
+model = 'Deep SR-ITM'; % Deep SR-ITM (ICCV'19) or Multi-purpose CNN (ACCV'18)
 yuv_format = '420'; % YUV file format
 SDR_file = './data/test/testset_SDR.yuv'; % input .yuv file
 HDR_file = './data/test/testset_HDR.yuv'; % GT .yuv file
@@ -18,7 +19,11 @@ fclose(fopen(pred_file, 'w'));
 
 % load net
 disp('Loading net...')
-netstruct = load(sprintf('./net/x%d.mat', scale));
+if strcmp(model, 'Deep SR-ITM')
+    netstruct = load(sprintf('./net/x%d.mat', scale));
+elseif strcmp(model, 'Multi-purpose CNN')
+    netstruct = load(sprintf('./net/Multi-purpose_CNN_x%d.mat', scale));
+end
 net = dagnn.DagNN.loadobj(netstruct.net);
 move(net,'gpu');
 net.mode = 'test' ;
