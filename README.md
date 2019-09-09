@@ -6,7 +6,7 @@ Our paper was accepted for **oral presentation** at **ICCV 2019**.
 If you find this repository useful, please consider citing our paper.
 
 **Reference**:  
-> Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
+> Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications.
 *IEEE International Conference on Computer Vision*, 2019.
 
 Supplementary Material is provided [here](https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe).
@@ -86,7 +86,7 @@ Make sure to modify the lines in the test code to load the *trained network* whe
 Additionally, we also provide the pre-trained parameters of our previous work (Multi-purpose CNN) in the below reference, re-trained on the same data as Deep SR-ITM as compared in our ICCV paper.
 
 **Reference**:  
-> Soo Ye Kim, Munchurl Kim. A Multi-purpose Convolutional Neural Network for Simultaneous Super-Resolution and High Dynamic Range Image Reconstruction
+> Soo Ye Kim, Munchurl Kim. A Multi-purpose Convolutional Neural Network for Simultaneous Super-Resolution and High Dynamic Range Image Reconstruction.
 *Asian Conference on Computer Vision*, 2018.
 
 ### Description
