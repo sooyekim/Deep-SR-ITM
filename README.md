@@ -87,7 +87,7 @@ Additionally, we also provide the pre-trained parameters of our previous work (M
 
 **Reference**:  
 > Soo Ye Kim, Munchurl Kim. A Multi-purpose Convolutional Neural Network for Simultaneous Super-Resolution and High Dynamic Range Image Reconstruction.
-*Asian Conference on Computer Vision*, 2018.
+In *Proceedings of Asian Conference on Computer Vision*, 2018.
 
 ### Description
 We provide the pre-trained weights for the x2 and x4 models in **\<source_path\>/net**. 
