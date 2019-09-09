@@ -5,7 +5,8 @@ We provide the training and test code along with the trained weights and the dat
 Our paper was accepted for **oral presentation** at **ICCV 2019**.
 If you find this repository useful, please consider citing our paper.
 
-**Reference**: Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
+**Reference**:  
+> Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
 *IEEE International Conference on Computer Vision*, 2019.
 
 Supplementary Material is provided [here](https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe).
@@ -81,4 +82,16 @@ We provided two training code files for pre-training and fully training the whol
 **Testing with the trained model**  
 Make sure to modify the lines in the test code to load the *trained network* when testing with the trained model.
 
+## Multi-purpose CNN (New update 09.09)
+Additionally, we also provide the pre-trained parameters of our previous work (Multi-purpose CNN) in the below reference, re-trained on the same data as Deep SR-ITM as compared in our ICCV paper.
+
+**Reference**:  
+> Soo Ye Kim, Munchurl Kim. A Multi-purpose Convolutional Neural Network for Simultaneous Super-Resolution and High Dynamic Range Image Reconstruction
+*Asian Conference on Computer Vision*, 2018.
+
+### Description
+We provide the pre-trained weights for the x2 and x4 models in **\<source_path\>/net**. 
+The testing procedure is the same as Deep SR-ITM, and you can easily test the Multi-purpose CNN by specifying 'Multi-purpose CNN' as the model in the *Settings* part in the test code files.
+
+## Contact
 Please contact me via email (sooyekim@kaist.ac.kr) for any problems regarding the released code.
