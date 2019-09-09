@@ -1,5 +1,6 @@
 clear all;
 %%%====== Settings ======%%%
+model = 'Deep SR-ITM'; % Deep SR-ITM (ICCV'19) or Multi-purpose CNN (ACCV'18)
 SDR_file = './data/test/testset_SDR.mat'; % input .mat file
 HDR_file = './data/test/testset_HDR.mat'; % GT .mat file
 scale = 2; % scale factor for SR
@@ -24,7 +25,11 @@ pred = single(zeros(size(data)));
 
 % load net
 disp('Loading net...')
-netstruct = load(sprintf('./net/x%d.mat', scale));
+if strcmp(model, 'Deep SR-ITM')
+    netstruct = load(sprintf('./net/x%d.mat', scale));
+elseif strcmp(model, 'Multi-purpose CNN')
+    netstruct = load(sprintf('./net/Multi-purpose_CNN_x%d.mat', scale));
+end
 net = dagnn.DagNN.loadobj(netstruct.net);
 move(net,'gpu');
 net.mode = 'test' ;
