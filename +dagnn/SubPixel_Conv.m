@@ -1,5 +1,5 @@
 classdef SubPixel_Conv < dagnn.ElementWise
-%%% Sub-pixel convlution layer %%%
+%%% Sub-pixel convolution layer %%%
 %
 % Performs sub-pixel convolution or pixel shuffle as specified in [1].
 % From an input of size [H, W, C, N] stored in inputs{1}, this layer
