@@ -6,12 +6,12 @@ classdef Bicubic < dagnn.ElementWise
 % *Back-propagation (backward function) not implemented*
 
     properties
-        scale=2;
+        scale = 2;
     end
     
     methods
         function outputs = forward(obj, inputs, params)
-            outputs{1} =imresize(inputs{1}, obj.scale, 'bicubic');
+            outputs{1} = imresize(inputs{1}, obj.scale, 'bicubic');
         end
         
         function [derInputs, derParams] = backward(obj, inputs, params, derOutputs)
@@ -21,7 +21,7 @@ classdef Bicubic < dagnn.ElementWise
         
         function obj = Bicubic(varargin)
             obj.load(varargin);
-            obj.scale=obj.scale;
+            obj.scale = obj.scale;
         end
     end
 end
