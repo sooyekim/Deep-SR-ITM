@@ -33,7 +33,8 @@ The code was tested under the following setting:
 
 ### Description
 We provide the pre-trained weights for the x2 and x4 models in **\<source_path\>/net**.  
-The test dataset can be downloaded from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH). (Note: Both the SDR video files and the HDR video files are of 3840x2160 resolution)
+The test dataset can be downloaded from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH).  
+(Note: Both the SDR video files and the HDR video files are of 3840x2160 resolution)
 
 We provide three test code files:  
 * test_mat.m *for* testing the provided .mat test set. (**fast**)  
