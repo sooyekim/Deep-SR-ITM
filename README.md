@@ -54,7 +54,9 @@ after the PQ-OETF, in the BT.2020 color container and this YUV file can be viewe
   - After setting up the specifications, please follow through the instructions 1. to 3. in the **Quick Start** section and then run this code.
   - You can change the SR scale factor (2 or 4) by modifying the 'scale' parameter in the initial settings.
   - This test code will generate an HDR YUV video file of 10 bits/pixel, 
-after the PQ-OETF, in the BT.2020 color container and this YUV file can be viewed on HDR TVs after encoding with the above specifications.
+after the PQ-OETF, in the BT.2020 color container and this YUV file can be viewed on HDR TVs after encoding with the above specifications.  
+* test_mat_cpu.m *for* testing the provided .mat test set on a CPU. (**very slow**)  
+  - This version can be executed in the same way as test_mat.m
 
 ## Training code
 ### Quick Start
