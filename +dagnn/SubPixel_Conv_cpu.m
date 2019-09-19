@@ -47,7 +47,7 @@ classdef SubPixel_Conv_cpu < dagnn.ElementWise
 
     function obj = SubPixel_Conv_cpu(varargin)
       obj.load(varargin) ;
-      obj.scale=obj.scale;
+      obj.scale = obj.scale;
     end
   end
 end
