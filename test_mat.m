@@ -68,7 +68,8 @@ end
 disp(['Average PSNR: ', num2str(mean(psnr_all)), ' dB'])
 % disp(['Avg PSNR: ', num2str(mean(psnr_all)), ' dB', ' Avg SSIM: ', num2str(mean(ssim_all)),...
 %     ' Avg mPSNR: ', num2str(mean(mpsnr_all)), ' dB', ' Avg MS-SSIM: ', num2str(mean(msssim_all))]);
-% REFERENCE: Avg PSNR: 35.5966 dB Avg SSIM: 0.9833 Avg mPSNR: 38.0449 dB Avg MS-SSIM: 0.9843
+% REFERENCE x2: Avg PSNR: 35.5966 dB Avg SSIM: 0.9833 Avg mPSNR: 38.0449 dB Avg MS-SSIM: 0.9843
+% REFERENCE x4: Avg PSNR: 33.69 dB Avg SSIM: 0.9657 Avg mPSNR: 36.13 Avg MS-SSIM: 0.9754
 
 % save as .mat file
 disp('Saving...')
