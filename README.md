@@ -1,5 +1,5 @@
 # Deep-SR-ITM
-Official repository of Deep SR-ITM (ICCV2019)
+This is the official repository of Deep SR-ITM (ICCV2019).
 
 We provide the training and test code along with the trained weights and the dataset (train+test) used for the Deep SR-ITM.
 Our paper was accepted for **oral presentation** at **ICCV 2019**.
