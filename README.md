@@ -62,26 +62,26 @@ after the PQ-OETF, in the BT.2020 color container and this YUV file can be viewe
 ## Training code
 ### Quick Start
 1. Download the source code in a directory of your choice \<source_path\>.
-2. Download the train dataset from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH) and place the 'train' folder in **\<source_path\>/data**
+2. Download the train dataset from [here](https://drive.google.com/file/d/19cp91wSRSrOoEdPeQkfMWisou3gJoh-7) and place the 'train' folder in **\<source_path\>/data**
 3. Place the files in **\<source_path\>/+dagnn/** to **\<MatConvNet\>/matlab/+dagnn**
 4. Run **train_base_net.m** (pre-training) then run **train_full_net.m** (full training with modulation components)
 
 ### Description
-The train dataset can be downloaded from [here](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH).
+The train dataset can be downloaded from [here](https://drive.google.com/file/d/19cp91wSRSrOoEdPeQkfMWisou3gJoh-7).
 We create a training set prior to training (instead of cropping the training patches every mini-batch), as it is inefficient to read the 4K frames at every iteration.  
 
 We provided two training code files for pre-training and fully training the whole network.  
 * train_base_net.m *for* pre-training.  
   - Please refer to the **Quick Start** section in order to run this code.
-  - At this point, we only provide the training code for the x2 model.
   - The trained weights will be saved in **\<source_path\>/net/net_base**
-  - The network model (net_base) can be found in the file net_base.m
+  - The network model (net_base) can be found in the file net_base.m (net_base_x4.m for x4 model)
+  - Use train_base_net_x4.m for training the x4 model.
 * train_full_net.m *for* full training of the whole network including the modulation components.  
   - Please refer to the **Quick Start** section in order to run this code.
-  - At this point, we only provide the training code for the x2 model.
   - This code will initialize the corresonding weights of net_full with those trained on net_base. (Hence, it requires the pre-training of net_base using the train_base_net.m code.)
   - The trained weights will be saved in **\<source_path\>/net/net_full**  
-  - The network model (net_full) can be found in the file net_full.m
+  - The network model (net_full) can be found in the file net_full.m (net_full_x4.m for x4 model)
+  - Use train_full_net_x4.m for training the x4 model.
   
 **Testing with the trained model**  
 Make sure to modify the lines in the test code to load the *trained network* when testing with the trained model.
