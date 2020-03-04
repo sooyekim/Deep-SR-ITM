@@ -3,7 +3,7 @@ This is the official repository of Deep SR-ITM (ICCV2019).
 
 We provide the training and test code along with the trained weights and the dataset (train+test) used for the Deep SR-ITM.
 Our paper was accepted for **oral presentation** at **ICCV 2019**.
-If you find this repository useful, please consider citing our paper.
+If you find this repository useful, please consider citing our [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Kim_Deep_SR-ITM_Joint_Learning_of_Super-Resolution_and_Inverse_Tone-Mapping_for_ICCV_2019_paper.pdf).
 
 **Reference**:  
 > Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications.
