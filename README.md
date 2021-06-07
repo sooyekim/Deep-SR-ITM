@@ -10,7 +10,7 @@ If you find this repository useful, please consider citing our [paper](http://op
 *IEEE International Conference on Computer Vision*, 2019.
 
 Supplementary Material is provided [here](https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe).  
-Presentation material at ICCV: [Poster](https://drive.google.com/file/d/1rznbov090SV1d6Yb3ek8gSp7GcvawgwO/view?usp=sharing), [PPT](https://drive.google.com/file/d/16Fq5J4JdH3a531yHXOSb1iVxokC9XEWy/view?usp=sharing)
+Presentation material at ICCV: [Poster](https://drive.google.com/file/d/1rznbov090SV1d6Yb3ek8gSp7GcvawgwO/view?usp=sharing), [PPT](https://drive.google.com/file/d/1oLA4i0hvb-9eO9zqYKC1UZ5GURp_8a5L/view?usp=sharing)
 
 ### Requirements
 Our code is implemented using MatConvNet. (MATLAB required)
