@@ -25,6 +25,8 @@ The code was tested under the following setting:
 * cuDNN 7.1.4  
 * NVIDIA TITAN Xp GPU
 
+If you wish to measure mPSNR (using Deep-SR-ITM/utils/mPSNR_HDR.m), it is dependent on [HDR Toolbox](https://github.com/banterle/HDR_Toolbox).
+
 ## Test code
 ### Quick Start
 1. Download the source code in a directory of your choice \<source_path\>.
