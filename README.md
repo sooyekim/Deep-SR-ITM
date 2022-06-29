@@ -6,8 +6,18 @@ Our paper was accepted for **oral presentation** at **ICCV 2019**.
 If you find this repository useful, please consider citing our [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Kim_Deep_SR-ITM_Joint_Learning_of_Super-Resolution_and_Inverse_Tone-Mapping_for_ICCV_2019_paper.pdf).
 
 **Reference**:  
-> Soo Ye Kim, Jihyong Oh, Munchurl Kim. Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications.
+> Soo Ye Kim, Jihyong Oh, Munchurl Kim, "Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications",
 *IEEE International Conference on Computer Vision*, 2019.
+
+**Bibtex**:
+```
+@inproceedings{kim2019deep,
+      title = {Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications}, 
+      author = {Soo Ye Kim and Jihyong Oh and Munchurl Kim},
+      booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+      year = {2019}
+}
+```
 
 Supplementary Material is provided [here](https://drive.google.com/open?id=1bijPrcN-ont-iP0-DqyhBta_rj3dmZEe).  
 Presentation material at ICCV: [Poster](https://drive.google.com/file/d/1rznbov090SV1d6Yb3ek8gSp7GcvawgwO/view?usp=sharing), [PPT](https://drive.google.com/file/d/1oLA4i0hvb-9eO9zqYKC1UZ5GURp_8a5L/view?usp=sharing)
