@@ -10,7 +10,7 @@ If you find this repository useful, please consider citing our [paper](http://op
 *IEEE International Conference on Computer Vision*, 2019.
 
 **Bibtex**:
-```
+```bibtex
 @inproceedings{kim2019deep,
       title = {Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications}, 
       author = {Soo Ye Kim and Jihyong Oh and Munchurl Kim},
